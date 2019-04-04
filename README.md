@@ -26,27 +26,27 @@ I strongly recommend you using [IntelliJ IDEA](https://www.jetbrains.com/idea/do
 
 1. Open `File > New > Project...`
 
-![Step_1](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_1.png)
+![Step_1](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_1.png)
 
 2. Select `Gradle` and then `Java`. 
 
 > Make sure the **Project SDK** is set to `1.8`.
 
-![Step_2](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_2.png)
+![Step_2](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_2.png)
 
 3. Enter a **GroupId** and a **ArtifactId**.
 
 > **GroupId** represents your company/developer id and **ArtifactId** represents your project's id.
 
-![Step_3](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_3.png)
+![Step_3](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_3.png)
 
 4. Enable `Use auto-import`.
 
-![Step_4](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_4.png)
+![Step_4](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_4.png)
 
 5. Enter your **Project name**.
 
-![Step_5](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_5.png)
+![Step_5](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_5.png)
 
 All you have to do now is to wait for Gradle to generate the project for you.
 
@@ -58,7 +58,7 @@ We are now going to add our project's dependencies. Indeed, in order to communic
 
 1. Open the **build.gradle** file.
 
-![Step_6](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_6.png)
+![Step_6](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_6.png)
 
 2. Modify the following parts:
 
@@ -78,7 +78,7 @@ dependencies {
 
 You should now have:
 
-![Step_7](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_7.png)
+![Step_7](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_7.png)
 
 We finished adding our dependencies. The JDA library is now available for our project.
 
@@ -88,19 +88,19 @@ We finished adding our dependencies. The JDA library is now available for our pr
 
 1. Start by creating a new **Package** in `src/main/java`.
 
-![Step_8](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_8.png)
+![Step_8](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_8.png)
 
 2. Name it the following way `GroupId.ProjectId`. This is how you name your root package in Java.
 
-![Step_9](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_9.png)
+![Step_9](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_9.png)
 
 3. Create a new **Java Class** in the package we just created.
 
-![Step_10](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_10.png)
+![Step_10](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_10.png)
 
 4. Name it the following way `ProjectId` (starting with an uppercase). This is how you name your main class in Java.
 
-![Step_11](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_11.png)
+![Step_11](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_11.png)
 
 5. Open it and create the main method.
 
@@ -150,31 +150,31 @@ Now that we have written the very base of the bot, let's create a Discord Bot ac
 
 1. Head to Discord's [Developer Portal](https://discordapp.com/developers/applications/).
 
-![Step_12](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_12.png)
+![Step_12](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_12.png)
 
 > If you don't already have a Discord account, you obviously need one for this. So go create one right now :)
 
 2. Go in the **Applications** tab and press the `New Application` button.
 
-![Step_13](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_13.png)
+![Step_13](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_13.png)
 
 3. Enter a the desired Bot `Name`.
 
-![Step_14](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_14.png)
+![Step_14](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_14.png)
 
 4. *(Optional) Feel free to take some time to edit the Bot's profile giving it an avatar, a description, ...*
 
 5. Go to the **Bot** tab and press a the *Build-A-Bot* `Add Bot` button.
 
-![Step_15](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_15.png)
+![Step_15](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_15.png)
 
 6. Press `Yes, do it!`.
 
-![Step_16](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_16.png)
+![Step_16](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_16.png)
 
 7. Once created, click on the `Click to Reveal Token` , and copy your bot's `Token`.
 
-![Step_17](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_17.png)
+![Step_17](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_17.png)
 
 8. In the main method, change the `TOKEN` string of the `.setToken("TOKEN")` with your Bot's token.
 
@@ -265,11 +265,11 @@ Take some time to understand this code before continuing the tutorial.
 
 1. Click on `Add Configuration...` at the top right of IntelliJ IDEA.
 
-![Step_18](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_18.png)
+![Step_18](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_18.png)
 
 2. Press the `+` symbol in order to add a new configuration and select `Application`.
 
-![Step_19](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_19.png)
+![Step_19](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_19.png)
 
 3. Edit the following parts:
 
@@ -278,7 +278,7 @@ Take some time to understand this code before continuing the tutorial.
 - `Use classpath of module`: select the **GroupeId.ArtifactId.main** module.
 - `JRE`: just make sure it's using the Java 8 JRE (**1.8**).
 
-![Step_20](https://raw.githubusercontent.com/Azzerial/DiscordBot/master/Workshop1/.rsc/step_20.png)
+![Step_20](https://raw.githubusercontent.com/Azzerial/KYT_CAT_Discord_Bot/master/.rsc/step_20.png)
 
 4. Press `Apply` and then `OK`.
 
