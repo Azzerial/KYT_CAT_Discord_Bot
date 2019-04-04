@@ -4,8 +4,19 @@
 
 Make your own Discord Bot by following this tutorial step by step.
 
+> Table of contents
 
 1. [Prerequisites](#1-prerequisites)
+2. [Creating a new IntelliJ IDEA project](#2-creating-a-new-intellij-idea-project)
+3. [Configuring Gradle](#3-configuring-gradle)
+4. [Coding the base of a JDA Bot](#4-coding-the-base-of-a-jda-bot)
+5. [Creation of a Discord Bot account](#5-creation-of-a-discord-bot-account)
+6. [Adding event listeners](#6-adding-event-listeners)
+7. [Putting the Bot online](#7-putting-the-bot-online)
+8. [Testing the code](#8-testing-the-code)
+9. [Creating a command management system](#9-creating-a-command-management-system)
+10. [Adding Commands](#10-adding-commands)
+11. [Command examples](#11-command-examples)
 
 
 ## 1] Prerequisites
@@ -86,7 +97,7 @@ We finished adding our dependencies. The JDA library is now available for our pr
 
 
 
-## 4] Coding the base of JDA Bot
+## 4] Coding the base of a JDA Bot
 
 1. Start by creating a new **Package** in `src/main/java`.
 
@@ -429,7 +440,7 @@ public abstract class Command extends ListenerAdapter {
 
 
 
-## 10] Adding Commands
+## 10] Adding commands
 
 1. *(Optional) I suggest creating a package called `commands` in which we'll store all the created command classes.*
 2. Add a new class named the following way `NameCommand`.
