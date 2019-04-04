@@ -5,6 +5,8 @@
 Make your own Discord Bot by following this tutorial step by step.
 
 
+1. [Prerequisites](#1-prerequisites)
+
 
 ## 1] Prerequisites
 
